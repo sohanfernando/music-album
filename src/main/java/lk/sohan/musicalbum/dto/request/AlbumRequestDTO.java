@@ -1,5 +1,11 @@
 package lk.sohan.musicalbum.dto.request;
 
-public class AlbumRequestDTO {
+import lombok.Data;
 
+@Data
+public class AlbumRequestDTO {
+    private String albumName;
+    private Long artistId;
+    private String genre;
+    private String year;
 }
