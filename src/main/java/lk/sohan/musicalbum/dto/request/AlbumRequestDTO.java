@@ -1,8 +1,10 @@
 package lk.sohan.musicalbum.dto.request;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class AlbumRequestDTO {
     private String albumName;
     private Long artistId;

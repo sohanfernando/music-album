@@ -1,4 +1,7 @@
 package lk.sohan.musicalbum.repository;
 
-public interface SongRepository {
+import lk.sohan.musicalbum.model.Song;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SongRepository extends JpaRepository<Song, Long> {
 }
