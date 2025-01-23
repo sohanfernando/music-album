@@ -1,18 +1,23 @@
-Musical Album API
-A Spring Boot RESTful API for managing artists, albums, and songs. This project demonstrates best practices in API development using Spring Boot, JPA, and DTO-based request/response handling.
+<h1>Musical Album API</h1>
+<p>A Spring Boot RESTful API for managing artists, albums, and songs. This project demonstrates best practices in API development using Spring Boot, JPA, and DTO-based request/response handling.</p>
 
-Features
-Artist Management:
-Create, read, and delete artists.
-Album Management:
-Create albums linked to artists.
-Retrieve album details with nested artist information.
-Song Management:
-Create songs linked to albums.
-Retrieve song details with nested album and artist information.
-Tech Stack
-Backend Framework: Spring Boot
-Persistence: JPA/Hibernate with MySQL
-Build Tool: Maven
-Java Version: 21
-Data Transfer: JSON (via DTOs)
+<h2>Features</h2>
+
+<h3>Artist Management:</h3>
+<li>Create, read, and delete artists.</li>
+
+<h3>Album Management:</h3>
+<li>Create albums linked to artists.</li>
+<li>Retrieve album details with nested artist information.</li>
+
+<h3>Song Management:</h3>
+<li>Create songs linked to albums.</li>
+<li>Retrieve song details with nested album and artist information.</li>
+
+<h2>Tech Stack</h2>
+
+<li>Backend Framework: Spring Boot</li>
+<li>Persistence: JPA/Hibernate with MySQL</li>
+<li>Build Tool: Maven</li>
+<li>Java Version: 21</li>
+<li>Data Transfer: JSON (via DTOs)</li>
